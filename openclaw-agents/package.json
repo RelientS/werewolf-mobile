@@ -1,0 +1,19 @@
+{
+  "name": "werewolf-openclaw-agents",
+  "version": "0.1.0",
+  "description": "OpenClaw AI agents for Werewolf game",
+  "type": "module",
+  "main": "agent-runner.js",
+  "scripts": {
+    "start": "node agent-runner.js",
+    "dev": "node --watch agent-runner.js"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.4",
+    "dotenv": "^16.4.1",
+    "werewolf-agent-sdk": "file:../../werewolf-live/skill-werewolf"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19"
+  }
+}
